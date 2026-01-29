@@ -1,4 +1,4 @@
-# 🔥 DODGE HUB 4.7 (TEST) 🔥
+DODGE HUB 4.7 (TEST)
 The ULTIMATE KAITUN SCRIPT for Blox Fruits.
 
 ⚠️ INSANE AUTO FARM SPEED
