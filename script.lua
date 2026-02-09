@@ -674,7 +674,7 @@ QuestNeta = function()
 end
 
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
-local Window = Fluent:CreateWindow({Title = "Guest Hub",SubTitle = "| https://discord.gg/8hFQXBws",TabWidth = 155,Size = UDim2.fromOffset(555, 320),Acrylic = false,Theme = "Rose",MinimizeKey = Enum.KeyCode.End})
+local Window = Fluent:CreateWindow({Title = "Guest Hub",SubTitle = "| https://discord.gg/8hFQXBws",TabWidth = 155,Size = UDim2.fromOffset(555, 320),Acrylic = false,Theme = "Red",MinimizeKey = Enum.KeyCode.End})
 
 -- Services
 local CoreGui = game:GetService("CoreGui")
@@ -691,7 +691,7 @@ ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 local ToggleButton = Instance.new("ImageButton")
 ToggleButton.Size = UDim2.new(0, 50, 0, 50)
 ToggleButton.Position = UDim2.new(0.15, 0, 0.15, 0)
-ToggleButton.BackgroundColor3 = Color3.fromRGB(120, 0, 0)
+ToggleButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ToggleButton.BorderSizePixel = 0
 ToggleButton.Image = "rbxassetid://114694321655639" -- sua imagem
 ToggleButton.Parent = ScreenGui
