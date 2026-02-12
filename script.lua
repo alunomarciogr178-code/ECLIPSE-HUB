@@ -689,7 +689,7 @@ QuestNeta = function()
 end
 
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
-local Window = Fluent:CreateWindow({Title = "Eclipse Hub ⚡",SubTitle = "| https://discord.gg/9AKZGMak",TabWidth = 180,Size = UDim2.fromOffset(660, 440),Acrylic = true,Theme = "Dark",MinimizeKey = Enum.KeyCode.End})
+local Window = Fluent:CreateWindow({Title = "🌑Eclipse Hub🌑",SubTitle = "| https://discord.gg/9AKZGMak",TabWidth = 180,Size = UDim2.fromOffset(660, 440),Acrylic = true,Theme = "Dark",MinimizeKey = Enum.KeyCode.End})
 	
 -- Services
 local CoreGui = game:GetService("CoreGui")
