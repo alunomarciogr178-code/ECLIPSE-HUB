@@ -3140,7 +3140,7 @@ spawn(function()
     end
   end
 end)
-local Q = Tabs.Quests:AddToggle("Q", {Title = "Auto Pole V2 [Beta]", Description = "", Default = false})
+local Q = Tabs.Quests:AddToggle("Q", {Title = "Auto Pole V2 [Patched]", Description = "", Default = false})
 Q:OnChanged(function(Value)
   _G.AutoPoleV2 = Value
 end)
@@ -4580,7 +4580,7 @@ spawn(function()
     end)
   end
 end)
-Toggle = Tabs.Drago:AddToggle("Toggle", {Title = "Auto Relic Drago Trial [Beta]", Description = "turn on for auto trial v4 you have to COLLECT RELIC by your self", Default = false})
+Toggle = Tabs.Drago:AddToggle("Toggle", {Title = "Auto Relic Drago Trial", Description = "turn on for auto trial v4 you have to COLLECT RELIC by your self", Default = false})
 Toggle:OnChanged(function(Value)
   _G.Relic123 = Value
 end)
