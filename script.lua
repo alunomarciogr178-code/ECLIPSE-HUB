@@ -776,7 +776,7 @@ local Tabs = {
   Travel = Window:AddTab({Title = "🗺️Travel", Icon = ""}),
   Fruit = Window:AddTab({Title = "🍎Fruits", Icon = ""}),
   Shop = Window:AddTab({Title = "🛒Shop", Icon = ""}),
-  Misc = Window:AddTab({Title = "⚡Misc", Icon = ""})
+  Misc = Window:AddTab({Title = "⚡Misc", Icon = ""}),
 }
  
 local FarmLevel = Tabs.Main:AddToggle("FarmLevel", {Title = "Auto Farm Level", Description = "", Default = false})
